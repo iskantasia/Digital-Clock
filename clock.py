@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#Digital Clock Copyright (c) 2017 JJ Posti <techtimejourney.net> 
+#Digital Clock v.2 Copyright (c) 2017 JJ Posti <techtimejourney.net> 
 #Digital Clock comes with ABSOLUTELY NO WARRANTY; 
 #for details see: http://www.gnu.org/copyleft/gpl.html. 
 #This is free software, and you are welcome to redistribute it under 
@@ -40,11 +40,11 @@ class Ui_Dialog(QDialog):
         Dialog.resize(183, 90)
         Dialog.setMinimumSize(QtCore.QSize(183, 90))
         Dialog.setMaximumSize(QtCore.QSize(183, 90))
-        Dialog.setStyleSheet(_fromUtf8("QDialog#Dialog{background-color:#686868;color:#1e580c;}"))
+        Dialog.setStyleSheet(_fromUtf8("QDialog#Dialog{background-color:#353535;color:#353535;}"))
         self.verticalLayout = QVBoxLayout(Dialog)
         self.verticalLayout.setObjectName(_fromUtf8("verticalLayout"))
         self.lcd = QLCDNumber(Dialog)
-        self.lcd.setStyleSheet(_fromUtf8("QLCDNumber#lcd{background-color:#353535;color:#9c9d65;}"))
+        self.lcd.setStyleSheet(_fromUtf8("QLCDNumber#lcd{background-color:#353535;color:#26A65B;}"))
         self.lcd.setObjectName(_fromUtf8("lcd"))
         self.verticalLayout.addWidget(self.lcd)
 
@@ -85,11 +85,11 @@ class Extra(Ui_Dialog):
             print('Ok clicked, messagebox closed.')
             event.accept()
             app.quit()
-            print "\n"
-            print "Program ends. Goodbye."
-            print "\n"    
+            print ("\n")
+            print ("Program ends. Goodbye.")
+            print ("\n")    
         if buttonReply == QMessageBox.Cancel:
-            print "Do not quit. --> Going back to the program."
+            print ("Do not quit. --> Going back to the program.")
             event.ignore() 
 
 if __name__ == "__main__":
