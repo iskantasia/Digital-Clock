@@ -18,8 +18,8 @@ If needed make python files executable: chmod +x filename.py
 Run with: python filename_location.py
 
 _______________________
-![digital_clock](https://user-images.githubusercontent.com/29865797/29722048-0c9048c6-89c8-11e7-97da-f117f2793718.jpg)
-_________________
+![dlock](https://user-images.githubusercontent.com/29865797/36945773-a9e57d9e-1faa-11e8-8bbe-fe62bc089ea2.jpg)_________________
+
 ![digital_clock_quit](https://user-images.githubusercontent.com/29865797/29722106-3ebf2a38-89c8-11e7-9509-b5c7a6a311c1.jpg)
 _____________________
 Original post is at:http://www.techtimejourney.net/digital-clock-released/
