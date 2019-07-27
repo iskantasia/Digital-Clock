@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
-#Digital Clock v.2 Copyright (c) 2017 JJ Posti <techtimejourney.net> 
+#!/usr/bin/env python3
+#Digital Clock v.2.1 Copyright (c) 2017 JJ Posti <techtimejourney.net> 
 #Digital Clock comes with ABSOLUTELY NO WARRANTY; 
 #for details see: http://www.gnu.org/copyleft/gpl.html. 
 #This is free software, and you are welcome to redistribute it under 
@@ -40,11 +40,11 @@ class Ui_Dialog(QDialog):
         Dialog.resize(183, 90)
         Dialog.setMinimumSize(QtCore.QSize(183, 90))
         Dialog.setMaximumSize(QtCore.QSize(183, 90))
-        Dialog.setStyleSheet(_fromUtf8("QDialog#Dialog{background-color:#353535;color:#353535;}"))
+        Dialog.setStyleSheet(_fromUtf8("QDialog#Dialog{background-color:#232323;color:#26A65B;}"))
         self.verticalLayout = QVBoxLayout(Dialog)
         self.verticalLayout.setObjectName(_fromUtf8("verticalLayout"))
         self.lcd = QLCDNumber(Dialog)
-        self.lcd.setStyleSheet(_fromUtf8("QLCDNumber#lcd{background-color:#353535;color:#26A65B;}"))
+        self.lcd.setStyleSheet(_fromUtf8("QLCDNumber#lcd{background-color:#232323;color:#26A65B;}"))
         self.lcd.setObjectName(_fromUtf8("lcd"))
         self.verticalLayout.addWidget(self.lcd)
 
